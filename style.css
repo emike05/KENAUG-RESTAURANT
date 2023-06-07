@@ -1,3 +1,7 @@
+#map {
+  height: 50%;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -79,7 +83,7 @@ header {
     url(https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
   background-position: center;
   background-size: cover;
-  height: 60vh;
+  height: 85vh;
 }
 
 #home {
@@ -225,7 +229,6 @@ header {
   width: 100%;
   height: 50vh;
   border-radius: 24px 24px 0px 0;
-  object-fit: fill;
 }
 
 .details {
@@ -294,7 +297,6 @@ header {
 #order {
   background: rgb(245, 242, 242);
   color: white;
-  /* min-height: 100vh; */
 }
 
 .order-title {
@@ -352,6 +354,13 @@ button {
 
 button:hover {
   background-color: rgb(38, 173, 236);
+}
+
+#quoteDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 footer {
